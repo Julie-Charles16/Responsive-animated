@@ -1,0 +1,14 @@
+.section{
+    height: 100vh;
+    width: 100%;
+}
+
+@media screen {
+    #section-2 div{
+        margin: 15px;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background: blueviolet;
+    }
+}
