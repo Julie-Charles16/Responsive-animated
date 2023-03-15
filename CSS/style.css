@@ -31,16 +31,61 @@ header, footer {background-color: rgb(220, 220, 220);}
 
 .section{
     height: 100vh;
-    width: 100%;
+    width: 100vh;
+}
+
+header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#section-1 div{
+    box-shadow: -1px 1px 10px 1px inset;
+    margin: 15px;
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+#section-2{
+    margin: 15px;  
+}
+
+#grid{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; 
+    text-align: center;
+    font-size: 30px;
+    line-height:140px;
+   
+}
+
+#footer{
+    text-align: end;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 @media screen {
-    #section-2 div:nth-child(1){
+    #section-2 div div div{
         box-shadow: -1px 1px 10px 3px inset;
-        margin: 15px;
         width: 150px;
         height: 150px;
         border-radius: 50%;
-        background: blueviolet;
+        margin: 15px;
+        margin-left: -3px;
     }
 }
+@media (max-width:400px){
+    img{
+        width: 400px;
+     }
+    }
+
+@media screen(max-width:1180px) {
+    #section-2{
+        
+    }
+ 
+}    
